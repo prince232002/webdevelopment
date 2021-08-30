@@ -1,0 +1,34 @@
+{
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.AdvanceCustomBrowserCmdLine": "",
+    "liveServer.settings.ChromeDebuggingAttachment": false,
+    "editor.codeActionsOnSave": null,
+    "editor.mouseWheelZoom": true,
+    "files.autoSave": "onWindowChange",
+    "emmet.triggerExpansionOnTab": true,
+    "svg.completion.emmet": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "auto-close-tag.activationOnLanguage": [
+    
+        "xml",
+        "php",
+        "blade",
+        "ejs",
+        "jinja",
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "plaintext",
+        "markdown",
+        "vue",
+        "liquid",
+        "erb",
+        "lang-cfml",
+        "cfml",
+        "HTML (EEx)",
+        "HTML (Eex)",
+        "plist"
+    ],
+    "liveServer.settings.root": ""
+}

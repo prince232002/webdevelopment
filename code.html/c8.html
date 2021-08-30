@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form using label </title>
+</head>
+<body>
+    <h2>html forms</h2>
+    <form action="backend.php">
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myname" id="name" placeholder="enter name ">
+        </div>
+        <br>
+        <div>
+            Role:  <input type="text">
+        </div>
+        <br>
+        <div>
+            Email: <input type="text">
+        </div><br>
+        <div>
+            phone no: <input type="tel" placeholder="+91 xxxxxxxxxx" >
+        </div><br>
+        <div>
+            upload photo <input type="file">
+        </div>
+        <br>
+        <div>
+            volume<input type="range" min="0" max="10">
+            <input type="submit">
+        </div>
+        <br>
+        <br>
+        <div>
+            Gender : male <input type="radio" name="same" checked> Female <input type="radio" name="same"> other <input type="radio" name="same" id="">
+         </div>
+         <br>
+         <div>
+             Are you eligible? :<input type="checkbox" name="myelibility" checked>
+         </div>
+         <br>
+         <div>
+             <input type="submit" value="submit now">
+             <input type="reset" value="reset">     
+        </div>
+        <br>
+        <div>
+            write about yourself : <br><textarea name="mytext" id="" cols="100" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+             password<input type="password" id="mypasword">
+        </div>
+        <br>
+        <div>
+        <label for="car">Car</label>
+        <select name="myCar" id="car">
+            <option value="swf">swift</option>
+            <option value="ind">indica</option>
+        </select>
+        <br>
+        </div>
+    </form>
+</body>
+</html>

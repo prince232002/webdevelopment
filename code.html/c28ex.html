@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            height: 1000px ;
+            width: 100%;
+            border: 2px solid rgb(0, 0, 0);
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: stretch;
+            /* justify-content: space-evenly; */
+
+        }
+        #item {
+            width: 250px;
+            height: 250px;
+            background: blue;
+            border: yellow;
+            margin: 5px;
+            padding: 16px;
+        }
+        .item1{
+            color: yellowgreen;
+            order: 3;
+            /* flex-basis:150px; */
+            /* align-self: flex-end; */
+
+        }
+        .item2{
+            color: yellowgreen;
+            order: 4;
+        }
+        .item3{
+            color: yellow;
+            /* align-self: flex-end; */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="item" class="item1">item1</div>
+        <div id="item" class="item2">item2</div>
+        <div id="item" class="item3">item3</div>
+    </div>
+</body>
+</html>

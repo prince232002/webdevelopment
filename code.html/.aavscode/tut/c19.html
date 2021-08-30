@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #firstpara{
+            background-color: red;
+            height: 100px;
+            width:455px;
+        border : 4px solid green ; /*it is replace by below code
+            /* border-width: 4px;
+            border-color: green;
+            border-style:solid; */
+            /* border-radius:12px;  */
+            border-radius:12px 31px; 
+        }
+        #secondpara{
+            background-color: rgb(33, 44, 107);
+            height: 100px;
+            width:455px;
+            border-top: 2px solid rgb(0, 255, 21);
+            border-right: 2px solid rgb(85, 50, 50);
+            border-bottom: 2px solid rgb(0, 204, 255);
+            border-left: 2px solid rgb(0, 26, 255);
+            border-top-left-radius: 4px;
+            border-bottom-left-radius: 4px;
+        }
+        #thirdpara{
+            height: 1100px;
+            width:455px;
+            background-image: url(https://www.codewithharry.com/assets/img/logo.png);
+            background-repeat: no-repeat;/*repeat x n repeat y will make repeat on x and y axis */
+            /* background-position:center center; */
+            /* background-position:bottom right; */
+            /* background-position:top center; */
+            background-position: 132px 132px;
+
+        }
+    </style>
+</head>
+<body>
+    <h3>this is a heading </h3>
+    <p id="firstpara">this is a paragraph</p>
+    <h3>this is a heading </h3>
+    <p id="secondpara">this is a paragraph</p>
+    <h3>this is a heading </h3>
+    <p id="thirdpara">this is a paragraph</p>
+</body>
+</html>
